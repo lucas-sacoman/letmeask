@@ -1,0 +1,23 @@
+:root {
+   --purple: #4609ff;
+   --pink: #8a0183;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background: #181818;
+   color: #f8f8f8;
+}
+
+body, input, button, textarea {
+   font: 400 1rem 'Poppins', sans-serif; 
+}
+
+.logoAsk {
+   max-height: 100px;
+}

@@ -1,0 +1,41 @@
+.button {
+   font-family: 'Poppins', sans-serif; 
+   height: 50px;
+   border-radius: 8px;
+   font-weight: 500;
+   background: var(--purple);
+   color: #f8f8f8;
+   padding: 0 32px;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   cursor: pointer;
+   border: 0;
+
+   transition: .3s;
+
+   img {
+      margin-right: 8px;
+   }
+
+   &.outlined {
+      background: #0c0c0c;
+      border: 2px solid var(--pink);
+      color: var(--pink);
+   }
+
+   &.outlined:hover { 
+      color: #f8f8f8;
+   }
+
+   &:not(:disabled):hover {
+      background: var(--pink);
+   }
+
+   &:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+   }
+}
